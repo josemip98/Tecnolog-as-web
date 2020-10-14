@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<!-- Cabecera -->
+<head>
+ <meta name="autor" content="Jose Miguel Pelegrina" charset="UTF-8">
+ <title id="titulo">El lector de libros</title>
+</head>
+<body>
+    <header>
+      <img src="img/logo.jpg" alt="logo" width="120px"/>
+      <h1>El lector de libros</h1>
+      <h3>Contando historias desde hace 100 años</h3>
+    </header>
+<!-- Navegación -->
+  <nav>
+    <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="catalogo.html">Catalogo</a></li>
+    <li><a href="busqueda.html">Búsqueda</a></li>
+    <li><a href="tiendas.html">Tiendas</a></li>
+    <li><a href="pedidos.html">Pedidos</a></li>
+    </ul>
+  </nav>
+    <main>
+      <form action="procesar.php" method="post“ enctype=“application/x-www-form-urlencoded">
+    <h2>Pedido</h2>
+    <article>
+        <img src="img/HPYPF.jpg" alt="HPYPF" width="200px"/>
+				<p>Titulo: Harry Potter y la piedra filosofal</p>
+				<p>Autor: J.K.Rowling</p>
+        <p>ISBN: 8478884459</p>
+        <p>Número de páginas: 256</p>
+        <p>Editorial: Salamandra</p>
+        <p>Año: 1999</p>
+        <p> Harry Potter se ha quedado huérfano y vive en casa de sus abominables tíos y del insoportable primo Dudley. Harry se siente muy triste y solo, hasta que un buen día recibe una carta que cambiará su vida para siempre. En ella le comunican que ha sido aceptado como alumno en el colegio interno Hogwarts de magia y hechicería. A partir de ese momento, la suerte de Harry da un vuelco espectacular. En esa escuela tan especial aprenderá encantamientos, trucos fabulosos y tácticas de defensa contra las malas artes. Se convertirá en el campeón escolar de quidditch, especie de fútbol aéreo que se juega montado sobre escobas, y se hará un puñado de buenos amigos, aunque también algunos temibles enemigos. Pero sobre todo, conocerá los secretos que le permitirán cumplir con su destino. Pues, aunque no lo parezca a primera vista, Harry no es un chico común y corriente. Es un verdadero mago.</p>
+        <p>Precio: 14,99€ <p>
+			</article>
+  <fieldset>
+    <legend>Datos personales:</legend>
+    <label>Nombre y apellidos: <input type="text" name="nombre"/></label>
+    <label>Dirección de envío: <input type="text" name="direccion"/></label>
+    <label>Email: <input type="text" name="email"/></label>
+    <label>Numero de tarjeta: <input type="number" name="numero"/></label>
+    <label>Fecha de caducidad: <input type="text" name="fecha"/></label>
+    <label>CVC: <input type="number" name="cvc"/></label>
+  </fieldset>
+  <fieldset>
+  <legend>Marque si procede:</legend>
+    <input type="radio" id="acepto" name="publicidad" value="acepto">
+    <label for="publicidad">He leído y acepto las condiciones de compra</label><br>
+    <input type="radio" id="recibe" name="publicidad" value="recibe">
+    <label for="publicidad">Deseo recibir información sobre novedades</label><br>
+    <input type="radio" id="regalo" name="publicidad" value="regalo">
+    <label for="publicidad">Deseo el envío envuelto para regalo</label><br>
+  </fieldset>
+  <input type="submit" value="Hacer pedido"/>
+</main>
+<aside>
+  <section>
+    <h3>Más vendidos</h3>
+    <ul>
+      <li><a>El Quijote</a></li>
+      <li><a>Ulises</a></li>
+      <li><a>Arguiñano cocina</a></li>
+    </ul>
+  </section>
+  <section>
+    <h3>Más populares</h3>
+    <ul>
+      <li>Charles Dickens</li>
+      <li>Julio Verne</li>
+      <li>Edgar Allan Poe</li>
+    </ul>
+  </section>
+</aside>
+
+<!-- Pie de página -->
+<footer>
+  <article>
+  <h2>Dónde encontrarnos</h2>
+  <ul>
+  <li>Granada
+    <ul>
+      <li>Ogíjares (958550540)</li>
+      <li>La Zubia (958590979)</li>
+    </ul></li>
+  <li>Málaga
+  <ul>
+    <li>Nerja (952520639)</li>
+  </ul></li>
+  </ul>
+  </article>
+  <article>
+  <h2>Redes Sociales</h2>
+  <ul>
+    <a href="Correo"><img src="img/correo.jpg" alt="Correo" width="50px"/></a>
+  </ul>
+  <ul>
+    <a href="Twitter"><img src="img/twitter.jpg" alt="Correo" width="60px"/></a>
+  </ul>
+  <ul>
+    <a href="Facebook"><img src="img/facebook.jpg" alt="Correo" width="40px"/></a>
+  </ul>
+  </article>
+  <article>
+  <h2>Información</h2>
+  <ul>
+    <li><a href="Empresa">La empresa</a></li>
+    <li><a href="Politicas">Políticas de envío</a></li>
+    <li><a href="Preguntas">Preguntas frecuentes</a></li>
+    <li><a href="Mapa">Mapa del sitio</a></li>
+  </ul>
+  </article>
+</footer>
+</form>
+</body>
+</html>
