@@ -1,0 +1,287 @@
+
+	body{
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+
+	header{
+		color: black;
+		border: 1px solid green;
+		background-color: #CCFF5E;
+		height: 60px;
+	}
+
+	.burguer{
+		float: left;
+		margin: 0 0 0 0;
+		padding-left: 10px;
+	}
+
+	.titulo{
+		float: left;
+		margin: -16px 0 0 0;
+		padding-left: 40px;
+	}
+
+	/*--------------BARRA DE NAVEGACION -------------*/
+	.navegacion{
+		background-color: #E4FF5A;
+		height: 40px;
+		margin: 5px 0 5px 0;
+	}
+
+		.enlaces ul{
+			color: black;
+			list-style: none;
+			margin: 0 0 0 0;
+		}
+		.enlaces >ul >li{
+			float: left;
+			margin: 10px 30px 0 -40px;
+			padding-left: 30px;
+		}
+		.enlaces li a {
+		    color: black;
+		    text-align: left;
+		    text-decoration: none;
+		    font-weight: bold;
+		}
+
+		.enlaces >ul >li a:hover{
+			color: #FFFFFF;
+			background-color: grey;
+		}
+
+	/*-----------------MAIN-------------------*/
+
+	main {
+		float: left;
+		width: 79%;
+		list-style: none;
+		background: lightyellow;
+	}
+
+	.contenedor{
+		color: black;
+		border: 1px solid green;
+		background: lightyellow;
+	}
+
+	.formulario{
+		text-align: center;
+		border: 1px solid green;
+		background: lightyellow;
+	}
+
+	.formulario label{
+		margin: 10px 5px;
+		font-weight:bold;
+	}
+
+	.formulario input{
+		width: 160px;
+		padding:3px 10px;
+		margin:5px 0;
+		display:inline-block;
+	}
+
+	.celdaTitulo{
+		margin: 5px;
+		height: 40px;
+		padding-left: 10px;
+		color: black;
+		background-color: #CCFF5E;
+	}
+
+	.titPlato{
+		float: left;
+	}
+
+	.titPlato h2{
+		margin: 0 0 0 0;
+		float: left;
+		padding: 5px;
+	}
+
+	.celdaTags{
+		color: black;
+		background-color: lightyellow;
+		height: 20px;
+	}
+
+	.categoria{
+		float: left;
+		padding: 5px;
+		margin: -20px 0 0 -60px;
+		font-size: x-small;
+	}
+
+	.autor{
+		margin: -15px 5px 0 0;
+		float: right;
+		font-size: x-small;
+	}
+
+	.infoPlato{
+		color: black;
+		margin: 5px;
+		height: 200px;
+		background: #E4FF5A;
+	}
+
+	.descripcion{
+		position: relative;
+		width: 60%;
+		padding: 5px 0 0 10px;
+	}
+
+	.fotografia{
+		position: relative;
+		float: right;
+		padding: 5px;
+	}
+
+	.ingredientes{
+		float: right;
+		margin: 5px;
+		padding-left: 5px;
+		color: black;
+		width: 250px;
+		background: lightblue;
+	}
+
+	.ingredientes li{
+		list-style: none;
+		margin: 5px 0 0 -20px;
+	}
+
+	.preparacion li{
+		padding: 5px;
+		padding-left: 20px;
+	}
+
+	.barraPag{
+		margin: 5px;
+		height: 40px;
+		padding-left: 5%;
+		color: black;
+		background-color: #CCFF5E;
+	}
+
+	.opciones{
+		float: right;
+		padding-top: 3px;
+		padding-left: 10px;
+	}
+
+	/*------------------ASIDE--------------*/
+	aside {
+		float: right;
+		width: 20%;
+	}
+
+	.login{
+		height: 200px;
+		color: black;
+		margin: 5px;
+		border: 1px solid green;
+		background: lightyellow;
+		text-align: left;
+	}
+
+	.titLogin{
+		color: black;
+		height: 40px;
+		margin: 5px;
+		border: 1px solid green;
+		background: #FFD863;
+	}
+
+	.titLogin h2{
+		margin: 5px 0 0 5px;
+		text-align: left;
+	}
+
+	.user{
+		margin: 10px 20px 10px 20px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.pass{
+		margin: 10px 20px 10px 20px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.login1{
+		margin: 10px 20px 10px 20px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.valoradas{
+		margin: 5px;
+		color: black;
+		border: 1px solid green;
+		background: lightyellow;
+	}
+
+	.titValoradas{
+		font-size: smaller;
+		color: black;
+		height: 40px;
+		padding-left: 10px;
+		margin: 5px;
+		border: 1px solid green;
+		background: #FFD863;
+	}
+
+	.titValoradas h2{
+		margin: 5px 0 0 0;
+		text-align: left;
+	}
+
+	.numrecetas{
+		margin: 5px;
+		color: black;
+		border: 1px solid green;
+		background: lightyellow;
+		text-align: center;
+	}
+
+	.titRecetas{
+		color: black;
+		height: 40px;
+		padding-left: 10px;
+		margin: 5px;
+		border: 1px solid green;
+		background: #FFD863;
+	}
+
+	.titRecetas h2{
+		margin: 5px 0 0 0;
+		text-align: left;
+	}
+
+	/*------------------FOOTER--------------*/
+	footer {
+		position: fixed;
+		float: left;
+		bottom:0px;
+		width: 100%;
+		color: black;
+		padding-left: 10px;
+		background-color: #E4FF5A;
+		height: 35px;
+	}
+
+	.texto{
+		float: left;
+		padding: 10px;
+	}
+
+	footer a{
+		color: black;
+	  font-style: italic;
+	  text-decoration: none;
+	}

@@ -1,0 +1,384 @@
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media (min-width: 660px) {
+
+	header{
+		height: 60px;
+	}
+
+	.navegacion{
+		height: 40px;
+	}
+
+	.celdaTitulo{
+		height: 40px;
+	}
+
+	.infoPlato{
+		height: 200px;
+	}
+
+	.ingredientes{
+		float: right;
+		height: 250px;
+		width: 250px;
+	}
+
+}
+
+@media (max-width: 660px) {
+
+	header{
+		height: 110px;
+	}
+
+	.navegacion{
+		height: 60px;
+	}
+
+	.celdaTitulo{
+		height: 110px;
+	}
+
+	.stars{
+		float: left;
+	}
+
+	.infoPlato{
+		height: auto;
+	}
+
+	.ingredientes{
+		float: left;
+		height: 250px;
+		width: 95%;
+	}
+
+}
+
+/*--------------Cabecera-------------------------*/
+
+header{
+	color: black;
+	border: 1px solid green;
+	background-color: #CCFF5E;
+}
+
+.burguer{
+	margin: 0 0 0 0;
+	padding-left: 10px;
+}
+
+.titulo{
+	margin: -5px 0 0 0;
+	padding-left: 10px;
+	height: 50px;
+	font-size: small;
+}
+
+/*--------------BARRA DE NAVEGACION -------------*/
+.navegacion{
+	background-color: #E4FF5A;
+	margin: 5px 0 5px 0;
+}
+
+	.enlaces ul{
+		color: black;
+		list-style: none;
+		margin: 0 0 0 0;
+	}
+	.enlaces >ul >li{
+		float: left;
+		margin: 10px 30px 0 -40px;
+		padding-left: 30px;
+	}
+	.enlaces li a {
+	    color: black;
+	    text-align: left;
+	    text-decoration: none;
+	    font-weight: bold;
+	}
+
+	.enlaces >ul >li a:hover{
+		color: #FFFFFF;
+		background-color: grey;
+	}
+
+/*-----------------MAIN-------------------*/
+
+main {
+	width: 100%;
+}
+
+.contenedor{
+	margin: 0 0 5px 0;
+	width: 100%;
+	color: black;
+	border: 1px solid green;
+	background: lightyellow;
+}
+
+.celdaTitulo{
+	margin: 5px;
+	padding-left: 10px;
+	color: black;
+	background-color: #CCFF5E;
+}
+
+.titPlato{
+	float: left;
+}
+
+.stars{
+	padding: 5px;
+}
+
+.titPlato h2{
+	margin: 0 0 0 0;
+	float: left;
+	padding: 5px;
+}
+
+.celdaTags{
+	color: black;
+	background-color: lightyellow;
+	height: 20px;
+}
+
+.tags{
+	margin: -20px 0 0 10px;
+	float: left;
+	padding: 5px;
+	font-size: x-small;
+}
+
+.autor{
+	float: right;
+	margin: -13px 10px 0 0;
+	font-size: x-small;
+}
+
+.infoPlato{
+	color: black;
+	margin: 5px;
+	background: #E4FF5A;
+}
+
+.descripcion{
+	position: relative;
+	padding: 5px 0 0 10px;
+}
+
+.fotografia{
+	position: relative;
+	float: right;
+	padding: 5px;
+}
+
+.preparacion li{
+	padding: 5px;
+}
+
+.ingredientes{
+	margin: 5px;
+	color: black;
+	background: lightblue;
+}
+
+.ingredientes li{
+	list-style: none;
+	margin: 5px 0 0 -20px;
+}
+
+.fotografias{
+	text-align: center;
+}
+
+.coment1{
+	margin: 5px;
+	height: 60px;
+	padding-left: 10px;
+	background-color: #ffd0d8;
+}
+
+.user1 p{
+	color: #ed7e9f;
+	margin: 0 0 0 0;
+	float: left;
+	padding: 5px;
+}
+
+.com1 p{
+	clear:both;
+	color: black;
+	margin: -10px 0 0 0;
+	text-align: left;
+}
+
+.coment2{
+	margin: 5px;
+	height: 60px;
+	padding-left: 10px;
+	color: #ed7e9f;
+	background-color: #ffd0d8;
+}
+
+.user2 p{
+	color: #ed7e9f;
+	margin: 0 0 0 0;
+	float: left;
+	padding: 5px;
+}
+
+.com2 p{
+	clear:both;
+	color: black;
+	margin: -10px 0 0 0;
+	text-align: left;
+}
+
+.barraPag{
+	margin: 5px;
+	height: 40px;
+	padding-left: 5%;
+	color: black;
+	background-color: #CCFF5E;
+}
+
+.botones{
+	padding-left: 10px;
+}
+
+.opciones{
+	float: right;
+	padding-top: 3px;
+	padding-left: 10px;
+}
+
+ .boton {
+	 float: left;
+  background: #FFD863;
+   border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: black;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.4em;
+  margin: 5px;
+  text-align: center;
+  width: 1.4em;
+}
+
+/*------------------ASIDE--------------*/
+aside {
+	float: left;
+	width: 100%;
+}
+
+.login{
+	height: 200px;
+	color: black;
+	margin: 5px;
+	border: 1px solid green;
+	background: lightyellow;
+	text-align: left;
+}
+
+.titLogin{
+	color: black;
+	height: 40px;
+	margin: 5px;
+	border: 1px solid green;
+	background: #FFD863;
+}
+
+.titLogin h2{
+	margin: 5px 0 0 5px;
+	text-align: left;
+}
+
+.user{
+	margin: 10px 20px 10px 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.pass{
+	margin: 10px 20px 10px 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.login1{
+	margin: 10px 20px 10px 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.valoradas{
+	margin: 5px;
+	color: black;
+	border: 1px solid green;
+	background: lightyellow;
+}
+
+.titValoradas{
+	font-size: smaller;
+	color: black;
+	height: 40px;
+	padding-left: 10px;
+	margin: 5px;
+	border: 1px solid green;
+	background: #FFD863;
+}
+
+.titValoradas h2{
+	margin: 5px 0 0 0;
+	text-align: left;
+}
+
+.numrecetas{
+	margin: 5px;
+	color: black;
+	border: 1px solid green;
+	background: lightyellow;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.titRecetas{
+	color: black;
+	height: 40px;
+	padding-left: 10px;
+	margin: 5px 5px 0 -5px;
+	border: 1px solid green;
+	background: #FFD863;
+}
+
+.titRecetas h2{
+	margin: 5px 0 0 0;
+	text-align: left;
+}
+
+/*------------------FOOTER--------------*/
+footer{
+	clear:both;
+	color: black;
+	padding-left: 10px;
+	background-color: #E4FF5A;
+	height: 35px;
+}
+
+.texto{
+	float: left;
+	padding: 10px;
+}
+footer a{
+	color: black;
+  font-style: italic;
+  text-decoration: none;
+}
